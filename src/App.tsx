@@ -1,10 +1,9 @@
 import './App.css'
-import cv from './data/cv.json'
 
 function App() {
   return (
     <>
-      <div>{cv.basics.name}</div>
+      <div>Hello CV Builder!</div>
     </>
   )
 }
