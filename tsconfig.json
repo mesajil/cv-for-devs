@@ -9,6 +9,11 @@
     }
   ],
   "compilerOptions": {
-    "types": ["node"]
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@data*": ["./src/core/data/*"]
+    }
   }
 }
